@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1a63bccc.css",
-    "main.js": "/portfolio/static/js/main.6013c6d5.js",
+    "main.css": "/portfolio/static/css/main.11d4cd89.css",
+    "main.js": "/portfolio/static/js/main.c142ae83.js",
     "static/media/sunset.png": "/portfolio/static/media/sunset.1516e5a8419cde60b133.png",
+    "static/media/427.png": "/portfolio/static/media/427.da674ef59a5d1d71fba6.png",
     "static/media/speed-score.png": "/portfolio/static/media/speed-score.3db118f27424500620b2.png",
-    "static/media/python.png": "/portfolio/static/media/python.f0c9d64775aac23759fe.png",
+    "static/media/487.png": "/portfolio/static/media/487.4f6deb4ac1d850367177.png",
+    "static/media/node-react.png": "/portfolio/static/media/node-react.9dc32563c35e18bd098c.png",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.c3797879524cf640dccb.png",
+    "static/media/489.png": "/portfolio/static/media/489.f5589359f2b41890ea91.png",
+    "static/media/agile.png": "/portfolio/static/media/agile.82327333bfef1623df46.png",
     "static/media/brandon.jpg": "/portfolio/static/media/brandon.76d0826031eba09bf60b.jpg",
     "static/media/boeing.jpg": "/portfolio/static/media/boeing.10cc7db5b52bc7c6200e.jpg",
+    "static/media/oauth.png": "/portfolio/static/media/oauth.79fe373496b88903ab9c.png",
+    "static/media/flask.png": "/portfolio/static/media/flask.4c50f87e4533c38b16cc.png",
+    "static/media/315.jpg": "/portfolio/static/media/315.ec3ade086b04aba87aed.jpg",
     "static/media/machine.jpg": "/portfolio/static/media/machine.df2a2753eb6adde398f0.jpg",
+    "static/media/437.jpg": "/portfolio/static/media/437.20989f0fe84b6227b746.jpg",
+    "static/media/python.png": "/portfolio/static/media/python.a9bb3edc5ac55f1eb10b.png",
+    "static/media/vsc.png": "/portfolio/static/media/vsc.998811e2eaba8b447a02.png",
     "index.html": "/portfolio/index.html",
-    "main.1a63bccc.css.map": "/portfolio/static/css/main.1a63bccc.css.map",
-    "main.6013c6d5.js.map": "/portfolio/static/js/main.6013c6d5.js.map"
+    "main.11d4cd89.css.map": "/portfolio/static/css/main.11d4cd89.css.map",
+    "main.c142ae83.js.map": "/portfolio/static/js/main.c142ae83.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a63bccc.css",
-    "static/js/main.6013c6d5.js"
+    "static/css/main.11d4cd89.css",
+    "static/js/main.c142ae83.js"
   ]
 }
