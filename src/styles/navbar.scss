@@ -1,0 +1,42 @@
+.navbar-wrapper {
+  color: white;
+  width: 80vw;
+  margin-top: 1.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  .name {
+    font-weight: 600;
+    font-size: 1rem;
+    border-bottom: 2px solid white;
+  }
+  
+  .links-wrapper {
+    button {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      font-family: "Open Sans";
+      opacity: 0.7;
+      transition: all 0.2s ease-in-out;
+      font-size: 15px;
+      background-color: transparent;
+      outline: none;
+      border: 0px;
+      cursor: pointer;
+      &:hover {
+        color:rgb(255, 94, 0);
+        opacity: 1;
+        transform: scale(1.2);
+      }
+    }
+    .active {
+      color: white;
+    }
+  }
+}
+
+.navbar {
+  background-color: black;
+}

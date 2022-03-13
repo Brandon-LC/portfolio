@@ -1,0 +1,1 @@
+run in bash: "npm run deploy"

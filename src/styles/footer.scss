@@ -1,0 +1,64 @@
+.footer-container {
+  width: 80vw;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  
+  h1 {
+    font-size: 3rem;
+    line-height: 20px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    line-height: 0px;
+    font-weight: normal;
+    color: lightgrey;
+    padding-bottom: 35px;
+    border-bottom: 3px solid darkorange;
+    text-align: center;
+    width: 80vw;
+  }
+
+  .email-link {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: white;
+    &:hover{
+      color: blue;
+      transform: scale(1.05);
+    }
+  }
+
+  .icon-box{
+    text-align: center;
+    width: 200px;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+    display: inline-block;
+    opacity: .8;
+    img {
+      height: 2rem;
+      margin: 10px;
+    }
+    &:hover{
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+
+  span {
+    margin-top: 10px;
+  }
+  icon {
+    color: red;
+  }
+  
+  .phone {
+    margin-top: 20px;
+  }
+}
