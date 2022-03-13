@@ -1,37 +1,44 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-
 import python from "../images/python.png"
 import agile from "../images/agile.png"
-import nodeReact from "../images/node-react.png"
-import flask from "../images/flask.png"
-import mongo from "../images/mongo.png"
+import reactNode from "../images/react-node.png"
 import testCafe from "../images/test-cafe.png"
 import oauth from "../images/oauth.png"
-import vsc from "../images/vsc.png"
+import js from "../images/js.png"
+import git from "../images/git.jpg"
+import oop from "../images/oop.png"
 
 const Skills = () => {
   
   function displaySkill(x) {
     if (x == 0) {
-      document.getElementById("skillDiv").textContent = "Python is very cool"
+      document.getElementById("skillDiv").textContent = 
+        "I am proficent in Python and have used it extensively in coursework. I would say that it is my perfered programming language."
     } else if (x==1) {
-      document.getElementById("skillDiv").textContent = "Agile devlopment text." +
-      "This will be a paragraph to explain when and how I have used agile. I will also explain what I like and dislike about agile. maybe not the dislike part..."
+      document.getElementById("skillDiv").textContent = 
+        "I have written a couple front-end websites for coursework, all of which used React Node."
     } else if (x==2) {
-      document.getElementById("skillDiv").textContent = "I also like node react"
+      document.getElementById("skillDiv").textContent = 
+        "I have written tests in Test Café and Mockito. I am also familiar with black-box and white-box testing."
     } else if (x==3) {
-      document.getElementById("skillDiv").textContent = "I know some flask routes"
+      document.getElementById("skillDiv").textContent =
+        "I have implemented log-in pages which use Google OAuth and GitHub OAuth for security."
     } else if (x==4) {
-      document.getElementById("skillDiv").textContent = "Mango Database stuff"
+      document.getElementById("skillDiv").textContent = 
+        "I am proficient in the full-stack of web design (.css, .html, .js). I especially enjoy working on the front-end portion of web design."
     } else if (x==5) {
-      document.getElementById("skillDiv").textContent = "Black Box White Box All Box"
+      document.getElementById("skillDiv").textContent = 
+        "I have used Git Version Control for most of my coursework and all of my projects. I am also familiar with the NPM Package Manager."
     } else if (x==6){
-      document.getElementById("skillDiv").textContent = "Google Oauth and GitHub Oauth"
+      document.getElementById("skillDiv").textContent = 
+        "Most of my projects have used the Agile Software Delopment process. I also have used GitHub Project Boards."
     } else if (x==7){
-      document.getElementById("skillDiv").textContent = "Some IDES"
+      document.getElementById("skillDiv").textContent = 
+        "I am comfortable with the use of Object-Oriented Design principles. I also have experience drawing class diagram and sequence diagrams."
     } else {
-      document.getElementById("skillDiv").textContent = "Hover over skill to display more information"
+      document.getElementById("skillDiv").textContent =
+        "Hover over a skill to display more information"
     }
     
   }
@@ -52,18 +59,16 @@ const Skills = () => {
                   Python
                 </p>
               </div>
-
               <div className="skill" key={1}
                 onMouseEnter={() => displaySkill(1)}
                 onMouseLeave={() => displaySkill(-1)}>
-                <img src={agile} alt="css"/>
+                <img src={reactNode} alt="css"/>
                 <p>
-                  Agile Software Development
+                React Node
                 </p>
               </div>
             </div>
           </Fade>
-
           <div className="skills-center-container">
             <Fade left>
               <div className="skills-center-box">
@@ -71,72 +76,68 @@ const Skills = () => {
                   <div className="skill" key={2}
                     onMouseEnter={() => displaySkill(2)}
                     onMouseLeave={() => displaySkill(-1)}>
-                    <img src={nodeReact} alt="css"/>
+                    <img src={testCafe} alt="css"/>
                     <p>
-                      Node React
+                      Test Café
                     </p>
                   </div>
 
                   <div className="skill" key={3}
                     onMouseEnter={() => displaySkill(3)}
                     onMouseLeave={() => displaySkill(-1)}>
-                    <img src={flask} alt="css"/>
+                    <img src={oauth} alt="css"/>
                     <p>
-                      Flask Routes
+                      Google/ GitHub Oauth
                     </p>
                   </div>
                 </div>
               </div>
             </Fade>
-
             <div className="skills-center-box skill-text-box">
               <div className="skill-text" id="skillDiv">
                 Hover over a skill to display more information
               </div>
             </div>
-
             <Fade right>
               <div className="skills-center-box">
                   <div className="skills-grid skills-grid2">
                     <div className="skill" key={4}
                       onMouseEnter={() => displaySkill(4)}
                       onMouseLeave={() => displaySkill(-1)}>
-                      <img src={mongo} alt="css"/>
+                      <img src={js} alt="css"/>
                       <p>
-                        Mongo DB
+                        Web Design
                       </p>
                     </div>
 
                     <div className="skill" key={5}
                       onMouseEnter={() => displaySkill(5)}
                       onMouseLeave={() => displaySkill(-1)}>
-                      <img src={testCafe} alt="css"/>
+                      <img src={git} alt="css"/>
                       <p>
-                        Test Cafe
+                        Git Version Control
                       </p>
                     </div>
                 </div>
               </div>
             </Fade>
           </div>
-
           <Fade bottom>
             <div className="skills-grid">
               <div className="skill" key={6}
                 onMouseEnter={() => displaySkill(6)}
                 onMouseLeave={() => displaySkill(-1)}>
-                <img src={oauth} alt="css"></img>
+                <img src={agile} alt="css"></img>
                 <p>
-                  Google Oauth
+                  Agile Software Development
                 </p>
               </div>
-
               <div className="skill" key={7}
                 onMouseEnter={() => displaySkill(7)}
                 onMouseLeave={() => displaySkill(-1)}>
-                <img src={vsc} alt="css"></img>
+                <img src={oop} alt="css"></img>
                 <p>
-                  Visual Studio Code
+                  Object-Oriented Programming
                 </p>
               </div>
             </div>

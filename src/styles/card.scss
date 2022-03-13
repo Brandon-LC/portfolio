@@ -1,6 +1,6 @@
 .card {
-  width: 350px;
-  height: 350px;
+  width: 340px;
+  height: 340px;
   overflow: hidden !important;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
   .content {
     font-family: "Open Sans";
     text-align: center;
-    padding: 1px;
+    padding: 10px;
     opacity: 0;
     transition: all 500ms ease-in-out;
     transform: translate(0, 20px);
@@ -26,7 +26,7 @@
       font-weight: bold;
       color: white;
       width: auto;
-      margin-top: 40px;
+      margin-top: 30px;
     }
 
     p {

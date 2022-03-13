@@ -13,16 +13,16 @@ const About = () => {
             </Fade>
             <Fade bottom>
               <p>
-                Hello, I am a Computer Science graduate from Washington State University.
-                <br></br>
-                <br></br>
-                I enjoy playing Soccer in my free time, as well as playing video games with my friends when I have the time. I also go to the gym and cook new recipes as hobbies.
-                <br></br>
-                <br></br>
-                I would like start out by maintaining old code bases, and then branching out into creating and authoring my own projects in the future.
-                <br></br>
-                <br></br>
-                I am interested in Front-End Programming, Machine Learning, Automation, and anything else on the cutting edge of technology.
+                Hello, I am a Computer Science graduate with a bachelor's degree from Washington State University.
+                <br/>
+                <br/>
+                I enjoy playing Soccer, hitting the gym, playing video games with my friends, and learning to cook a new recipe in my free time.
+                <br/>
+                <br/>
+                I would like to start out by maintaining old code bases, and then branching out into a leadership position where I can create and author my own projects.
+                <br/>
+                <br/>
+                I am interested in Front-End Programming, Machine Learning, and anything else on the cutting edge of technology.
               </p>
             </Fade>
           </div>
