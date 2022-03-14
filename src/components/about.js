@@ -19,7 +19,7 @@ const About = () => {
                 I enjoy playing Soccer, hitting the gym, playing video games with my friends, and learning to cook a new recipe in my free time.
                 <br/>
                 <br/>
-                I would like to start out by maintaining old code bases, and then branching out into a leadership position where I can create and author my own projects.
+                I would like to start out my career by maintaining old code bases, and then branching out into a leadership position where I can create and author my own projects.
                 <br/>
                 <br/>
                 I am interested in Front-End Programming, Machine Learning, and anything else on the cutting edge of technology.

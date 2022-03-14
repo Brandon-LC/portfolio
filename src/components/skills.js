@@ -14,13 +14,13 @@ const Skills = () => {
   function displaySkill(x) {
     if (x == 0) {
       document.getElementById("skillDiv").textContent = 
-        "I am proficent in Python and have used it extensively in coursework. I would say that it is my perfered programming language."
+        "I am proficent in Python and have used it extensively in coursework. It is my perfered programming language."
     } else if (x==1) {
       document.getElementById("skillDiv").textContent = 
-        "I have written a couple front-end websites for coursework, all of which used React Node."
+        "I have written multiple full-stack websites for coursework, all of which used React Node."
     } else if (x==2) {
       document.getElementById("skillDiv").textContent = 
-        "I have written tests in Test Café and Mockito. I am also familiar with black-box and white-box testing."
+        "I have written tests in Test Café and Mockito. I am also familiar with black-box and white-box testing techniques."
     } else if (x==3) {
       document.getElementById("skillDiv").textContent =
         "I have implemented log-in pages which use Google OAuth and GitHub OAuth for security."

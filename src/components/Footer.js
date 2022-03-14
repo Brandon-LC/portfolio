@@ -32,7 +32,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="social-icons">
-              <a key={2} href="https://drive.google.com/file/d/1M8RzC3fY743LBMPAlJmNHe6JlL5td6og/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a key={2} href="https://drive.google.com/file/d/1153Dl3TMOueru-m4TK2JyC8XB45-7ewx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <img src={resume} alt="icons"></img>
               </a>
             </div>

@@ -45,8 +45,15 @@
       width: 80%;
     }
 
-    .btn-box{
-      &:hover{
+    .btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn-box {
+      margin-left: 10px;
+      &:hover {
         transform: scale(1.1);
       }
     }
