@@ -15,7 +15,7 @@ const Courses = () => {
         <div className="courses-wrapper">
           <Fade bottom>
             <h1>Coursework</h1>
-            <h2>Some classes I learned from</h2>
+            <h2>Core classes I took during my undergrad</h2>
             <h3>Hover over tiles!</h3>
           </Fade>
           <div className="grid">
